@@ -11,8 +11,9 @@ Menampilkan data transaksi dalam JSON sesuai viewData.
 
 ## Cara Jalankan
 
-1. Clone repo
+1. Clone repo https://github.com/GeoffreyJulianto/TransactionAPI.git
 2. Sesuaikan `src/main/resources/application.properties` dengan DB lokalmu.
-3. Jalankan Spring Boot dan DB lokal
-4. Test endpoint (contoh, menggunakan Postman GET http://localhost:8080/api/view-data)
+3. Masuk ke folder projek, cd TransactionAPI
+4. Jalankan Spring Boot dan DB lokal, ./mvnw spring-boot:run
+5. Test endpoint (contoh, menggunakan Postman GET http://localhost:8080/api/view-data)
   
