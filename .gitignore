@@ -1,0 +1,61 @@
+# ==============================
+# Maven / Gradle Build
+# ==============================
+/target
+build/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==============================
+# IDE / Editor
+# ==============================
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+### VS Code ###
+.vscode/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Local database / SQL files
+# ==============================
+*.db
+*.sql
+*.sqlite
+
+# ==============================
+# Spring Boot DevTools
+# ==============================
+restart/*.class
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
